@@ -1,0 +1,9 @@
+1)Scaffold-DbContext "Server=(LocalDB)\MSSQLLocalDB; database=tempdb; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models ==>Add Database in App ==>Database Apporch 
+
+2)  "ConnectionStrings": {
+    "LocalServer": "Server=(LocalDB)\\MSSQLLocalDB; database=tempdb; Trusted_Connection=True;"
+  },  ===> add connection string form  DbContext here
+
+3) var provider=builder.Services.BuildServiceProvider();
+ var config=provider.GetService<IConfiguration>();
+ builder.Services.AddDbContext<TempdbContext>(item => item.UseSqlServer(config.GetConnectionString("LocalServer"))); ===>  Cnnection between dbconectext add database.
