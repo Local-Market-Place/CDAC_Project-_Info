@@ -7,3 +7,56 @@
 3) var provider=builder.Services.BuildServiceProvider();
  var config=provider.GetService<IConfiguration>();
  builder.Services.AddDbContext<TempdbContext>(item => item.UseSqlServer(config.GetConnectionString("LocalServer"))); ===>  Cnnection between dbconectext add database.
+
+
+Project Overview:
+
+1)Developed a Local-Business-And-Service-Provider-Website using React, HTML, CSS, and ASP.NET Web API.
+2)Utilized SQL Server for database management.
+
+/*********************************************************************************************/
+
+Features for Users:
+
+1)Product Information and Comparison: Provides detailed information and comparison of products from nearby shops within a 1 km radius.
+
+2)Order Placement and Delivery: Users can order products with delivery handled by shop owners.
+
+3)Service Provider Information: Offers details about various services like plumbing, carpentry, etc., with scheduling options.
+
+4)Upcoming Shop Information: Keeps users informed about new or upcoming shops in their area.
+
+5)Product Inquiry and Request: Allows users to inquire about unavailable products, with the ability to request shop owners to stock specific items.
+
+/*********************************************************************************************/
+
+Instant Order and Collection System:
+
+1)Implemented a feature that allows customers to explore particular store information, such as product availability, pricing, and shop data, and place orders online by submitting a list of desired products straight to the shop.Users may pick them up at a specific time without having to wait.
+
+
+/*********************************************************************************************/
+
+Features for Shop Owners and Service Providers:
+
+1)Free Shop and Service Listing: Provides a free platform for shop owners and service providers to list their businesses.
+
+2)Advertising: Free advertising opportunities on the platform.
+
+3)Data Analysis and Inventory Management: Tools for data analysis and inventory management, enhancing operational efficiency.
+
+
+
+/*********************************************************************************************/
+
+Future Scope and Ideas:
+
+1)Enhanced Delivery Tracking: Implement a delivery tracking system for real-time updates.
+2)Mobile App Development: Develop a mobile app for broader accessibility.
+3)
+
+
+
+link:-
+1)Front-End Ui==>https://github.com/rushibhondave/Local-Bussiness-UI.git
+2)Front-End+Back-End==> https://github.com/rushibhondave/Local-Business-And-Service-Provider-Website.git
