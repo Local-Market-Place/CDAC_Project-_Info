@@ -2,7 +2,8 @@
 
 2)  "ConnectionStrings": {
     "LocalServer": "Server=(LocalDB)\\MSSQLLocalDB; database=tempdb; Trusted_Connection=True;"
-  },  ===> add connection string form  DbContext here
+  }, 
+  ===> add connection string form  DbContext here
 
 3) var provider=builder.Services.BuildServiceProvider();
  var config=provider.GetService<IConfiguration>();
